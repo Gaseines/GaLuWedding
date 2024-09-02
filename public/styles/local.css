@@ -1,0 +1,70 @@
+.local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, white, 50%, var(--begeClaro));
+    position: relative;
+    padding-top: 20px;
+}
+
+.titulo_local{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    margin-bottom: -1px;
+
+    font-family: 'Escrita', sans-serif ;
+}
+
+.titulo_local h1{
+    font-size: 2.5em;
+}
+
+.nome_local{
+   
+    margin-left: -150px;
+    margin-bottom: 20px;
+    font-family: 'Escrita', sans-serif;
+}
+
+.nome_local h1, p{
+    margin: 20px 0px 10px 0px;
+}
+
+
+.carrossel_local{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carrossel_local img{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+    margin: 5px;
+
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.divisao_local{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+
+    margin: 20px 10px;
+}
+
+.mapa{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

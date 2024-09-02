@@ -1,0 +1,145 @@
+.welcome{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 800px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: -5px;
+    
+    
+}
+.background_capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: brightness(50%);
+    
+    background-image: url(/public/img/img_olhar_ampliada.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -5;
+}
+.text_welcome{
+    color: var(--begeClaro);
+    margin-top: 150px;
+}
+
+.text_welcome h1{
+    font-size: 3.5em;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gabriel{
+    font-family: 'escrita', sans-serif;
+    letter-spacing: 5px;
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+.ligacao{
+    font-family: 'escrita', serif;
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+.luiza{
+    font-family: 'escrita', serif;
+    letter-spacing: 5px;
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+.div_01{
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 240px;
+}
+
+.endereco_versiculo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+}
+
+.versiculo{
+    margin: auto;
+    width: 80%;
+    font-family: 'escrita', sans-serif;
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+.cronometro{
+    background-image: url(/public/img/danca.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    
+    z-index: -2;
+}
+
+.cronometro::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+
+    opacity: 60%;
+}
+
+.timer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 1.7em;
+    color: var(--begeClaro);
+    font-family: 'escrita', serif;
+    margin-bottom: 80px;
+}
+
+.titulo_timer{
+    font-size: 2.5em;
+    color: var(--begeClaro);
+    font-family: 'escrita', sans-serif;
+    font-weight: lighter;
+}
+
+.box_timer{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid var(--begeClaro);
+    border-right: 1px solid var(--begeClaro);
+
+
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.308);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 126px;
+    height: 65px;
+    
+}
+
+
+

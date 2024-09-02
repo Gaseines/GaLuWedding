@@ -1,0 +1,149 @@
+<div class="local">
+                <div class="titulo_local">
+                    <h1>Local</h1>
+                </div>
+                <div class="container_logo_local">
+                    <div class="logo_local">
+                        
+                        <img class="logo_local_img" src="/public/img/local_logo.jpg">
+                        <h1>Local do casamento <br> Venha comemorar conosco</h1>
+                        
+                    </div>
+                </div>
+                
+                <div class="carrossel_local">
+                    <img class="img01_local" src="/public/img/loca_01.png">
+                    <img class="img02_local" src="/public/img/loca_02.png">
+                    <img class="img03_local" src="/public/img/loca_03.png">
+                </div>
+                
+                <div class="container_mapa">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2501.33839268477!2d-48.7733021418127!3d-26.782883742375557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df2b96607ce4d5%3A0xeec3c18fcd7ec8f8!2sS%C3%ADtio%20de%20Eventos%20Jardim%20dos%20Lagos!5e1!3m2!1spt-BR!2sbr!4v1724890904321!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            .container_logo_local{
+                margin: 30px 0px 20px 0px;
+                width: 250px;
+                height: 300px;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;    
+            
+                
+            }
+            
+            .logo_local{
+                width: 240px;
+                height: 290px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                
+            
+                border: 1px solid #6e6e6e;
+                position: relative;
+                
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+            .logo_local_img{
+                width: 200px;
+                height: 200px;
+                object-fit: contain;
+            }
+            
+            .logo_local h1{
+                text-align: center;
+                position: absolute;
+                bottom: 20px;
+                font-family: 'serifada', serif ;
+                font-size: 1.7em;
+            }
+            
+            .raminho_local{
+                width: 150px;
+                position: absolute;
+                transform: scaleX(-1) rotate(90deg);
+                top: -70px;
+                right: -100px;
+                
+            }
+            
+            .raminho_local_02{
+                display: none;
+            }
+            
+            .divisao_local{
+                width: 5px;
+                height: 50px;
+                margin-bottom: 20px;
+                background: linear-gradient(to bottom, #d5d5d3, var(--verdeEscuro));
+            }
+            
+            .carrossel_local{
+                display: flex;
+                margin-bottom: 30px;
+            }
+            
+            .carrossel_local img{
+                width: 115px;
+                margin: 5px;
+            
+                border: 2px solid white;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+            .mapa{
+                margin-bottom: 30px;
+                border: 5px solid var(--verdeClaro);
+            
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+
+
+
+
+            ---------------------------------------------------------------
+
+            .local{
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            
+            .container_logo_local{
+                order: 2;
+                width: 430px;
+                
+            }
+            
+            
+            
+            
+            .carrossel_local img{
+                width: 200px;
+                margin-top: 50px;
+            }
+            
+            .img02_local{
+                display: none;
+            }
+            
+            .container_mapa{
+                margin-top: 50px;
+                order: 4;
+                width: 430px;
+            }
+            
+            .mapa{
+                width: 300px;
+            }

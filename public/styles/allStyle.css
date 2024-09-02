@@ -1,0 +1,63 @@
+:root{
+    --begeClaro: #e5e0d8;
+    --begeEscuro: #e5d2b8;
+    --verdeClaro: #bbc4af;
+    --verdeEscuro: #6e7f52;
+    --terracota: #b35a35;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--begeEscuro);
+
+    overflow-x: hidden;     
+    z-index: -5;   
+}
+
+.all{
+    
+    margin: auto;
+}
+
+
+
+
+@font-face {
+    font-family: 'menu';
+    src: url(/public/fontes/Vogue.ttf);
+}
+
+@font-face {
+    font-family: 'nomes';
+    src: url(/public/fontes/Aston\ Script.ttf);
+}
+
+@font-face {
+    font-family: 'caligrafia';
+    src: url(/public/fontes/Peristiwa.otf);
+}
+
+@font-face {
+    font-family: 'escrita';
+    src: url(/public/fontes/Ginger.ttf);
+}
+
+@font-face {
+    font-family: 'detalhes';
+    src: url(/public/fontes/Honeymoon\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: 'serifada';
+    src: url(/public/fontes/Billing\ Lottre.ttf);
+}
+
