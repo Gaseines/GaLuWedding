@@ -33,31 +33,31 @@ body{
 
 @font-face {
     font-family: 'menu';
-    src: url(/public/fontes/Vogue.ttf);
+    src: url(../fontes/Vogue.ttf);
 }
 
 @font-face {
     font-family: 'nomes';
-    src: url(/public/fontes/Aston\ Script.ttf);
+    src: url(../fontes/Aston\ Script.ttf);
 }
 
 @font-face {
     font-family: 'caligrafia';
-    src: url(/public/fontes/Peristiwa.otf);
+    src: url(../fontes/Peristiwa.otf);
 }
 
 @font-face {
     font-family: 'escrita';
-    src: url(/public/fontes/Ginger.ttf);
+    src: url(../fontes/Ginger.ttf);
 }
 
 @font-face {
     font-family: 'detalhes';
-    src: url(/public/fontes/Honeymoon\ Personal\ Use.ttf);
+    src: url(../fontes/Honeymoon\ Personal\ Use.ttf);
 }
 
 @font-face {
     font-family: 'serifada';
-    src: url(/public/fontes/Billing\ Lottre.ttf);
+    src: url(../fontes/Billing\ Lottre.ttf);
 }
 
