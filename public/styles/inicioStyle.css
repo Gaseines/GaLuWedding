@@ -16,7 +16,7 @@
     position: absolute;
     filter: brightness(50%);
     
-    background-image: url(/public/img/img_olhar_ampliada.png);
+    background-image: url(../img/img_olhar_ampliada.png);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -81,7 +81,7 @@
 }
 
 .cronometro{
-    background-image: url(/public/img/danca.jpg);
+    background-image: url(../img/danca.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
