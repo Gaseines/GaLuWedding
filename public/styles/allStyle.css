@@ -52,6 +52,11 @@ body{
 }
 
 @font-face {
+    font-family: 'texto';
+    src: url(../fontes/AppleGaramond-Light.ttf);
+}
+
+@font-face {
     font-family: 'detalhes';
     src: url(../fontes/Honeymoon\ Personal\ Use.ttf);
 }

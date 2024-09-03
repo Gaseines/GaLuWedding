@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="public/styles/menu.css">
     <link rel="stylesheet" href="public/styles/resumo.css">
     <link rel="stylesheet" href="public/styles/local.css">
+    <link rel="stylesheet" href="public/styles/presentes.css">
     <link rel="stylesheet" href="public/styles/mediaQuery.css">
     
 </head>
@@ -18,13 +19,13 @@
     <div class="all">
         <nav class="nav_menu">
             <div id="header">
-                <a href="#welcome"><img class="img_monograma" src="public/img/MONOGRAMA2.png"></a>
-                <svg class="burguer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#e5d2b8" fill="none">
+                <a href="#welcome"><img class="img_monograma" src="public/img/MONOGRAMA3.png"></a>
+                <svg class="burguer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#e5e0d8" fill="none">
                     <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <svg class="fechado" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#e5d2b8" fill="none">
+                <svg class="fechado" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#e5e0d8" fill="none">
                     <path d="M19.0005 4.99988L5.00049 18.9999M5.00049 4.99988L19.0005 18.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
     
@@ -67,7 +68,7 @@
             </div>
             <div class="resumo" id="nossa_historia">
                 <div class="selo">
-                    <img src="public/img/MONOGRAMA2.png" alt="">
+                    <img src="public/img/MONOGRAMA3.png" alt="">
                 </div>
                 <div class="historia">
                     <div class="container_img_historia">
@@ -93,16 +94,55 @@
                     
                 </div>
             </div>    
+
+            <div class="container_presentes">
+                <div class="presentes">
+                    <h1 class="titulo_presentes">Presentes</h1>
+                    
+                    <img class="img_presentes" src="public/img/presente.png" alt="">
+
+                    <p class="texto_presentes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequatur eaque</p>
+
+                    <a class="link_presentes" href="#">Acesse a lista de presentes</a>
+                </div>
+            </div>
+
             <div class="titulo_local">
                 <h1>Local</h1>
             </div>
             <div class="local">
-                <div class="nome_local">
-                    <h1>Nome Local</h1>
-                    <p>Endereço</p>
-                    <p>04/08/2025</p>
-                    <p>Chegada a partir de 15:00</p>
+                <div class="_container_nome_local">
+                    <div class="nome_local">
+                        <p class="endereco">
+                            <svg class="icon_endereco" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#ffffff" fill="none">
+                                <path d="M14.5 9C14.5 10.3807 13.3807 11.5 12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9Z" stroke="currentColor" stroke-width="1.5" />
+                                <path d="M13.2574 17.4936C12.9201 17.8184 12.4693 18 12.0002 18C11.531 18 11.0802 17.8184 10.7429 17.4936C7.6543 14.5008 3.51519 11.1575 5.53371 6.30373C6.6251 3.67932 9.24494 2 12.0002 2C14.7554 2 17.3752 3.67933 18.4666 6.30373C20.4826 11.1514 16.3536 14.5111 13.2574 17.4936Z" stroke="currentColor" stroke-width="1.5" />
+                                <path d="M18 20C18 21.1046 15.3137 22 12 22C8.68629 22 6 21.1046 6 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                            Endereço
+                        </p>
+                        <p class="data">
+                            <svg class="icon_data" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#ffffff" fill="none">
+                                <path d="M18 2V4M6 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.9955 13H12.0045M11.9955 17H12.0045M15.991 13H16M8 13H8.00897M8 17H8.00897" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M3.5 8H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.5 12.2432C2.5 7.88594 2.5 5.70728 3.75212 4.35364C5.00424 3 7.01949 3 11.05 3H12.95C16.9805 3 18.9958 3 20.2479 4.35364C21.5 5.70728 21.5 7.88594 21.5 12.2432V12.7568C21.5 17.1141 21.5 19.2927 20.2479 20.6464C18.9958 22 16.9805 22 12.95 22H11.05C7.01949 22 5.00424 22 3.75212 20.6464C2.5 19.2927 2.5 17.1141 2.5 12.7568V12.2432Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M3 8H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            04.05.2025
+                        </p>
+                        <p class="horario">
+                            <svg class="icon_hora" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" color="#ffffff" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                                <path d="M12 8V12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            15:00
+                        </p>
+                    </div>
                 </div>
+
+
+                <div class="divisao_local"></div>
 
                 <div class="carrossel_local carrossel_local_01">
                     <img class="img01_local" src="public/img/loca_01.png">
@@ -112,13 +152,8 @@
                     <img class="img01_local" src="public/img/loca_01.png">
                     <img class="img02_local" src="public/img/loca_02.png">
                     
-                </div>
-                <div class="divisao_local"></div>                
-                <div class="container_mapa">
-                    <div class="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2501.33839268477!2d-48.7733021418127!3d-26.782883742375557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df2b96607ce4d5%3A0xeec3c18fcd7ec8f8!2sS%C3%ADtio%20de%20Eventos%20Jardim%20dos%20Lagos!5e1!3m2!1spt-BR!2sbr!4v1724890904321!5m2!1spt-BR!2sbr" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
+                </div>                
+                
             </div>
         </main>
     </div>
